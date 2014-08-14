@@ -1,5 +1,5 @@
 ## Getting and Cleaning Data - Project ReadMe
-## ==========================================
+=============================================
 
 ### Overview of the task
 
@@ -41,8 +41,8 @@ To adapt the source path to your own configuration, please set the variables "WD
  7. The feature names are written to file "tidyData_feature_names.txt" to help creating the code book
  8. The feature names are applied to the features data frame
  9. This tidy data is written to a file in CSV format under the name "tidyData.csv" to allow further processing
-10. The tidy data is aggregated along Subject and Activity columns into a new data frame
-11. After the aggregation, proper column names are applied to the new data frame
-12. The first two columns of the target data frame are swapped to align the column sequence with the sort order
-13. The target file is written to disk under the name "tidyData_averages.txt"
+ 10. The tidy data is aggregated along Subject and Activity columns into a new data frame
+ 11. After the aggregation, proper column names are applied to the new data frame
+ 12. The first two columns of the target data frame are swapped to align the column sequence with the sort order
+ 13. The target file is written to disk under the name "tidyData_averages.txt"
 
