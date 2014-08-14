@@ -32,7 +32,6 @@ This data frame is written to file "tidyData.csv" in case it is required for fur
 A second data frame of the identical format is created, but containing the averages of all features, based on the subject and the type of activity.
 
 
-
 ## Tidy Data Format
 
 The output format of the tidy data - both, the full and the averaged data sets - is identical with the following columns:
@@ -48,7 +47,7 @@ The following columns specify assignment of data to subjects and types of activi
 
 ### Device recorded data columns
 
-The feature columns of recorded movement data use a self-explanatory column header in camelCase, using the following format:
+The feature columns of recorded movement data provide a self-explanatory column header in camelCase, using the following format:
 
 `[a][Bbbb][Cccc][D]`, where
 
@@ -60,7 +59,7 @@ The feature columns of recorded movement data use a self-explanatory column head
 | `[Cccc]` | Type of data aggregation, therefore either "Mean" for the average or "Std" for standard deviation |
 | `[D]` | Optional one character suffix. Where applicable, it depicts the axis of the signal ("X", "Y", or "Z" respectively) |
 
-The full list of feature names is as follows:
+The full list of the 66 relevant feature names is as follows:
 
 tBodyAccMeanX  
 tBodyAccMeanY  
@@ -128,3 +127,4 @@ fBodyBodyGyroMagMean
 fBodyBodyGyroMagStd  
 fBodyBodyGyroJerkMagMean  
 fBodyBodyGyroJerkMagStd  
+
