@@ -50,6 +50,12 @@ The feature columns of recorded movement data use a self-explanatory column head
 
 [a][Bbbb][C], where
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 | ---------- | ---------------------------------------------------------------------------------------------- |
 | `[a]` | is either "f" for frequency domain data or "t" for time domain data |
 | ---------- | ---------------------------------------------------------------------------------------------- |
