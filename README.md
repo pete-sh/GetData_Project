@@ -1,5 +1,4 @@
-## Getting and Cleaning Data - Project ReadMe
-=============================================
+## Getting and Cleaning Data Project - ReadMe
 
 ### Overview of the task
 
