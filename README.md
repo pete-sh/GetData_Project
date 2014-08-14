@@ -38,6 +38,7 @@ To adapt the source path to your own configuration, please set the variables "WD
  5. Based on the data frame containing the feature names, the obsolete features are also filtered out
  6. The feature names are processed to adhere to R naming standards (using camelCase notation)
  7. The feature names are written to file `tidyData_feature_names.txt` to help creating the code book
+    - The content of this file consists of 66 rows containing the feature names
  8. The feature names are applied to the features data frame
  9. This tidy data is written to a file in CSV format under the name `tidyData.csv` to allow further processing
     - The content of this data frame consists of 68 columns with a total of 10299 observations
