@@ -50,14 +50,15 @@ The following columns specify assignment of data to subjects and types of activi
 
 The feature columns of recorded movement data use a self-explanatory column header in camelCase, using the following format:
 
-`[a][Bbbb][C]`, where
+`[a][Bbbb][Cccc][D]`, where
 
 
 | Feature    | Description                                                                                    |
 |:---------- |:---------------------------------------------------------------------------------------------- |
 | `[a]` | One character domain prefix, either "f" for frequency data or "t" for time data |
 | `[BbbBbbb]` | The middle part of the name is a description of the actual type of data signal (e.g. "BodyGyro", "BodyAcc", "GravityAcc", etc.) |
-| `[C]` | Optional one character suffix. Where applicable, it depicts the axis of the signal ("X", "Y", or "Z" respectively)|
+| `[Cccc]` | Type of data aggregation, therefore either "Mean" for the average or "Std" for standard deviation |
+| `[D]` | Optional one character suffix. Where applicable, it depicts the axis of the signal ("X", "Y", or "Z" respectively) |
 
 The full list of feature names is as follows:
 
