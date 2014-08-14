@@ -50,13 +50,8 @@ The feature columns of recorded movement data use a self-explanatory column head
 
 [a][Bbbb][C], where
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
-| Feature    | Description                                                                                    |
+|:Feature    |:Description                                                                                    |
 | ---------- | ---------------------------------------------------------------------------------------------- |
 | `[a]` | is either "f" for frequency domain data or "t" for time domain data |
 | `[BbbBbbb]` |is a description of the actual type of data signal (e.g. "BodyGyro", "BodyAcc", "GravityAcc", etc.) |
