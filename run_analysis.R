@@ -75,6 +75,9 @@ names(features)   <- feature_names$name
 names(activities) <- c("Activity")
 names(subject)    <- c("Subject")
 
+## write feature names to file - will be used in Code Book
+write.table(names(features), file = paste(WD_BASE, "tidyData_feature_names.txt", sep="/"), row.name = FALSE, quote = FALSE)
+
 ## create a single data fram with tidy data
 tidyData <- cbind(subject, activities, features)
 
