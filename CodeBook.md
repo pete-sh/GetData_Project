@@ -1,5 +1,5 @@
-Data Cleaning Example (Project work on Coursera Course "Getting and Cleaning Data"
-==================================================================================
+Data Cleaning Example (Project work on Coursera Course "Getting and Cleaning Data")
+===================================================================================
 
 ## Starting point and original data
 
