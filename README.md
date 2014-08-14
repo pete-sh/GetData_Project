@@ -34,14 +34,15 @@ To adapt the source path to your own configuration, please set the variables "WD
     - Test and Train data for features, activities, and subjects are combined
     - Activity labels and feature names are read
  4. For the feature names, all irrelevant columns are filtered out
-    - Any column without the marker "mean()" or "std()" is considered obsolete for this project
+    - Any column without the marker `mean()` or `std()` is considered obsolete for this project
  5. Based on the data frame containing the feature names, the obsolete features are also filtered out
  6. The feature names are processed to adhere to R naming standards (using camelCase notation)
- 7. The feature names are written to file "tidyData_feature_names.txt" to help creating the code book
+ 7. The feature names are written to file `tidyData_feature_names.txt` to help creating the code book
  8. The feature names are applied to the features data frame
- 9. This tidy data is written to a file in CSV format under the name "tidyData.csv" to allow further processing
+ 9. This tidy data is written to a file in CSV format under the name `tidyData.csv` to allow further processing
+    - The content of this data frame consists of 68 columns with a total of 10299 observations
  10. The tidy data is aggregated along Subject and Activity columns into a new data frame
  11. After the aggregation, proper column names are applied to the new data frame
  12. The first two columns of the target data frame are swapped to align the column sequence with the sort order
- 13. The target file is written to disk under the name "tidyData_averages.txt"
-
+ 13. The target file is written to disk under the name `tidyData_averages.txt`
+     - The content of this data frame consists of 68 columns with a total of 180 observations (resulting from 6 different activities of 30 subjects)
