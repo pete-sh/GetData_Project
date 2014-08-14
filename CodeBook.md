@@ -41,14 +41,14 @@ The output format of the tidy data - both, the full and the averaged data sets -
 
 The following columns specify assignment of data to subjects and types of activity:
 
-Activity | Type of activity (movement) of the subject
-Subject | Numeric ID of the subject (individual carrying the device)
+| Activity | Type of activity (movement) of the subject |
+| Subject | Numeric ID of the subject (individual carrying the device)|
 
 ### Device recorded data columns
 
 The feature columns of recorded movement data use a self-explanatory column header in camelCase, using the following format:
 
-[a][Bbbb][C], where
+`[a][Bbbb][C]`, where
 
 
 | Feature    | Description                                                                                    |
