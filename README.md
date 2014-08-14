@@ -5,8 +5,7 @@
 This repository contains results for the project work of the "Getting and Cleaning Data" Coursera course, 
 consisting of an R script and the code book for the data.
 
-The aim of the project is to read and process input data in order to create a tidied data set according to the requirements description.
-the actual task is defined as follows:
+The aim of the project is to read and process input data in order to create a tidied data set according to the requirements description. The actual task is defined as follows:
 
 1. Merge the training and the test sets to create one data set  
 2. Extract only the measurements on the mean and standard deviation for each measurement  
