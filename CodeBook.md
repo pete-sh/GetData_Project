@@ -41,6 +41,8 @@ The output format of the tidy data - both, the full and the averaged data sets -
 
 The following columns specify assignment of data to subjects and types of activity:
 
+| Column Name | Description                                                                                    |
+|:---------- |:---------------------------------------------------------------------------------------------- |
 | Activity | Type of activity (movement) of the subject |
 | Subject | Numeric ID of the subject (individual carrying the device)|
 
