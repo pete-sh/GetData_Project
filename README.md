@@ -34,6 +34,7 @@ To adapt the source path to your own configuration, please set the variables "WD
     - Test and Train data for features, activities, and subjects are combined
     - Activity labels and feature names are read
  4. For the feature names, all irrelevant columns are filtered out
+    - Any column without the marker "mean()" or "std()" is considered obsolete for this project
  5. Based on the data frame containing the feature names, the obsolete features are also filtered out
  6. The feature names are processed to adhere to R naming standards (using camelCase notation)
  7. The feature names are written to file "tidyData_feature_names.txt" to help creating the code book
