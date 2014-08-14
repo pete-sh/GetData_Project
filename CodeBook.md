@@ -56,10 +56,10 @@ The feature columns of recorded movement data use a self-explanatory column head
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+| Feature    | Description                                                                                    |
+| ---------- | ---------------------------------------------------------------------------------------------- |
 | `[a]` | is either "f" for frequency domain data or "t" for time domain data |
-| ---------- | ---------------------------------------------------------------------------------------------- |
 | `[BbbBbbb]` |is a description of the actual type of data signal (e.g. "BodyGyro", "BodyAcc", "GravityAcc", etc.) |
-| ---------- | ---------------------------------------------------------------------------------------------- |
 | `[C]` | if applicable, depicts the axis of the signal ("X", "Y", or "Z" respectively)|
 
 The full list of feature names is as follows:
