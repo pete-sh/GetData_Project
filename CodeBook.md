@@ -8,15 +8,15 @@ Accelerometer and gyroscope 3-axial signals were pre-processed to form a vector 
 Detailed information about the original data can be found here:
 
 
-- [data source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
 - [data description](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
+- [data source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
 
 
 ## Data Processing
 
 ### Correlation of raw input data
 
-The input data comes from various file based sources which need to be correlated into one data frame according to the descriptions available with the original data.
+The input data comes from various file based resources which need to be correlated into one data frame according to the descriptions available with the original data.
 
 As requested by the project definition, this data is filtered on measurements which relate to mean and standard deviation features (visible by the respective column labels in the original data, which contain either "mean()" or "std()" in their names).
 
