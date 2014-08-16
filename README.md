@@ -22,7 +22,7 @@ The raw input data and its description can be found here:
 ## Data processing
 
 ### Preconditions
-The script expects the data to be already available on the local disk.  
+The script "run_analysis.R" expects the data to be already available on the local disk.  
 To adapt the source path to your own configuration, please set the variables "WD_BASE" and "WD_INPUT" accordingly.
 
 
