@@ -20,16 +20,16 @@ The input data comes from various file based resources which need to be correlat
 
 As requested by the project definition, this data is filtered on measurements which relate to mean and standard deviation features (visible by the respective column labels in the original data, which contain either "mean()" or "std()" in their names).
 
-Out of the 561 original features, 79 remain in the target data set, which is then extended with information about the subject and the type of activity.
+Out of the 561 original features, 66 remain in the target data set, which is then extended with information about the subject and the type of activity.
 
 Descriptive column names are applied to the tidy data. Details about the format and contents of the data frame can be found in the respective section of this document.
 
-This data frame is written to file "tidyData.csv" in case it is required for further processing.
+This data frame is written to file "tidyData.csv" in case it is required for further processing in other assignments.
 
 
 ### Averaging of tidy data
 
-A second data frame of the identical format is created, but containing the averages of all features, based on the subject and the type of activity.
+A second data frame of the identical format is created, but containing the averages of all features, grouped by subject and type of activity.
 
 
 ## Tidy Data Format
@@ -127,4 +127,3 @@ fBodyBodyGyroMagMean
 fBodyBodyGyroMagStd  
 fBodyBodyGyroJerkMagMean  
 fBodyBodyGyroJerkMagStd  
-
